@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+  
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 56px;
+}
+
+ .left{
+    justify-content: space-evenly;
+    display: flex;
+    height: 100%;
+    width: 15%;
+   margin-left: 3%;
+    color: white;
+    align-items: center;
+    
+}
+
+.nav .left .menu{
+    margin-right: 20px;
+    /* background-color: yellowgreen; */
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30%;
+}
+
+.nav .left .menu img{
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 3px; */
+    height: 100%;
+    width: 30px;
+}
+
+
+.nav .left img{
+    height: 40%; 
+    width: 80%; 
+    background: transparent;
+}
+
+.middle{
+    margin-right: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;   
+    height: 42px;
+    width: 28%;
+    border-radius: 25px;
+    border: 1px solid #E2E2E2;
+}
+.middle input{
+    margin-right: 20px;
+    border: none;
+    height: 99%;
+    width:70% ;
+    border-radius: 20px;
+}
+
+.middle input, text{
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.middle img{
+    margin-right: 10px;
+    height: 20px;
+    width: 55px;
+}
+
+.right{
+    margin-right: 6%;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
